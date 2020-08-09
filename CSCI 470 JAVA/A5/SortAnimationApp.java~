@@ -1,0 +1,26 @@
+import javax.swing.JFrame;
+
+
+public class SortAnimationApp extends JFrame
+{
+  public SortAnimationApp(String s)
+  {
+    super(s);
+    
+    SortPanel sp1 = new SortPanel;
+    SortPanel sp2 = new SortPanel;
+    
+  }
+  
+  public static void main(String[] args) 
+  {
+    
+    //New instance of this class
+    SortAnimationApp mainWindow = new SortAnimationApp("Sorting Animation");
+    
+    //set attributes
+    mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    mainWindow.setSize(900, 390);
+    mainWindow.setVisible(true);
+  }
+}

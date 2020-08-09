@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class USMoneyDemo
+{
+ public static void main(String[] args)
+ {
+   int dollar, cent;
+   Scanner sc = new Scanner(System.in);
+   
+   System.out.print("Enter dollar amount: ");
+   dollar = sc.nextInt();
+   System.out.print("\nEnter cent amount: ");
+   cent = sc.nextInt();
+   USMoeny x = new USMoney(dollar, cent);
+   
+   System.out.print("\nEnter dollar amount: ");
+   dollar = sc.nextInt();
+   System.out.print("\nEnter cent amount: ");
+   cent = sc.nextInt();
+   USMoeny y = new USMoney(dollar, cent);
+   
+   USMoney xPlusY = x.plus(y);
+   System.out.print("X plus Y is  $" + xPlusY.getDollars() + "." + xPlusY.getCents())'
+ }
+  
+}

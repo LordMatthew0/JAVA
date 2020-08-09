@@ -1,0 +1,21 @@
+import java.util.Scanner;
+pubilc class DateDemo
+{
+ public static void main(String[] args)
+ {
+  Scanner sc = new Scanner(System.in);
+  int day, month, year;
+  
+  System.out.println("Enter a day: ");
+  day = sc.nextInt();
+  
+  System.out.println("Enter a month: ");
+  month = sc.nextInt();
+  
+  System.out.println("Enter a year: ");
+  year = sc.nextInt();
+  
+  Date test = new Date(day, month, year);
+  System.out.printf("%d days have past since January 1st\n", test.daysSinceJan1());
+ }
+}

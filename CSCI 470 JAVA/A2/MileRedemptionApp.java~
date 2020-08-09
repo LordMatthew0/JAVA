@@ -1,0 +1,20 @@
+/********************************************************************
+ *                                                                  *
+ *  CSCI 470-2/502-2    Assignment 2 - Another Console Program      *
+ *                                                                  *
+ *                                                                  *
+ *  Class Name:  MileRedemptionApp                                  *
+ *                                                                  *
+ *  Programmer:  Matthew Lord                                       *
+ *                                                                  *
+ *  Purpose:     A console program drives the program.              *
+ *                                                                  *
+ ********************************************************************/
+
+public class MileRedemptionApp
+{
+  public static void main(String[] args)
+  {
+    
+  }
+}

@@ -1,0 +1,18 @@
+
+
+public class USMoney
+{
+ private int dollars;
+ private int cents;
+ 
+ public USMoney(int dollars, int cents)
+ {
+  if(cents >= 0 && cents <= 99)
+    this.cents = cents;
+  else
+  {
+    double temp = cents % 100;
+    this.dollars = (dollars + (temp / 100);
+  }
+ }
+}

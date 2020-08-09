@@ -1,0 +1,54 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.io.File;
+/********************************************************************
+ *                                                                  *
+ *  CSCI 470-2/502-2    Assignment 2 - Another Console Program      *
+ *                                                                  *
+ *                                                                  *
+ *  Class Name:  MileRedeemer                                       *
+ *                                                                  *
+ *  Programmer:  Matthew Lord                                       *
+ *                                                                  *
+ *  Purpose:     A console program .        *
+ *                                                                  *
+ ********************************************************************/
+
+public class MileRedeemer
+{
+  ArrayList<Destination> destList = new ArrayList<Destination>();
+  
+  private int milesRemaining;
+  
+  public void readDestinationInfo(Scanner fileScanner)
+  {
+    string cityName;
+    int normalMiles;
+    int frequentFlyerMiles;
+    int upgradeMiles;
+    int startMonth;
+    int endMonth;
+    
+    while(fileScanner.hasNext())
+    {
+      
+      
+    }
+  }
+  
+  public String[] getDestinationNames()
+  {
+    
+  }
+  
+  public String[] redeemCustomerMiles(int miles, int month)
+  {
+    
+  }
+  
+  pubilc int getLeftoverMiles()
+  {
+   return milesRemaining; 
+  }
+  
+}
